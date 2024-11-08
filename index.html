@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen ">
+
+
+    <div class="w-full flex flex-col-reverse  md:w-7/12 md:bg-blue-600  lg:w-8/12 lg:bg-gray-500 bg-green-500   lg:flex-row  rounded-lg ">
+  
+        <div class="  flex justify-center mt-4 md:m-4 sm:mr-4 ">
+          <img src="photos/tt.PNG" alt="Image" class=" h-16 mr-4 pr-4 pl-4  md:h-32  lg:h-full  ml-8 mb-8 md:mr-4 rounded-lg   " />
+        </div>
+      <div class=" p-6 w-[640px] h-[816px]  ">
+        <h1 class="font-poppins text-2xl text-gray-800 mt-4 items-center text-center lg:text-left">Signup</h1>
+        <h2 class="font-poppins text-lg text-gray-800 mt-4 mb-7 text-center  lg:text-left">
+          Let's get you set up so you can access your personal account.
+        </h2>
+   
+      <div class=" ">
+      <form
+        class=" space-y-4  mx-auto p-6 bg-white rounded-lg ml-5 mb-2">
+        <div class=" flex gap-4">
+          <input type="text" id="fname" name="fname" placeholder="Enter first name"
+            class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+          />
+          <input type="text" id="lname" name="lname" placeholder="Enter last name"
+            class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+          />
+        </div>
+
+        <div class=" flex gap-4">
+          <input type="email" id="email" name="email" placeholder="Enter email"
+            class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+          />
+          <input type="tel" id="phone"  name="phone" placeholder="Enter phone number"
+            class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+          />
+        </div>
+
+        <div class="flex flex-col gap-4">
+            <div class="relative">
+                <input type="password" placeholder="Enter password"
+                    class="w-full px-4 py-2 pr-10 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                />
+                <img src="photos/Vectorss.png" alt=" "
+                    class="absolute right-3 top-1/2 transform -translate-y-1/2 w-2 h-2 cursor-pointer"
+                />
+            </div>
+        
+            <div class="relative">
+                <input type="password" placeholder="Confirm password"
+                    class="w-full px-4 py-2 pr-10 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                />
+                <img src="photos/Vectorsss.png"  alt=" "
+                    class="absolute right-3 top-1/2 transform -translate-y-1/2 w-2 h-2 cursor-pointer"
+                />
+            </div>
+        </div>
+        
+
+        <div class=" flex items-center space-x-2">
+          <input type="checkbox" id="terms" class="w-4 h-4 text-blue-600 focus:ring-2 focus:ring-blue-500"
+          />
+          <label for="terms" class="text-sm text-gray-600"
+            >I agree to all the <span class="text-blue-500">Terms</span> and
+            <span class="text-blue-500">Privacy Policies</span></label
+          >
+        </div>
+
+        <button type="submit"
+          class=" w-full py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          Create Account
+        </button>
+
+        <p class=" text-center text-sm text-gray-600">
+          Already have an account?
+          <a href="#" class="text-blue-500 hover:underline">Log in</a>
+        </p>
+
+        <div class=" flex justify-center gap-4  ">
+          <div class=" border border-custom-blue p-4">
+            <img src="photos/Vector.png" alt="" class="w-2 h-2 " />
+          </div>
+          <div class=" border border-custom-blue p-4">
+            <img
+              src="photos/flat-color-icons_google.png"
+              alt=""
+              class="w-2 h-2"
+            />
+          </div>
+          <div class="icon-container border border-custom-blue p-4 ">
+            <img src="photos/Vector (1).png" alt="" class="w-2 h-2 " />
+          </div>
+       </div>
+      </form>
+    </div>
+    </div>
+  </body>
+</html> 
